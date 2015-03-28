@@ -1,0 +1,25 @@
+{
+  "name": "gulp-starter",
+  "version": "0.0.0",
+  "description": "Template Gulp script",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kalongthewires/kah-gulp-starter.git"
+  },
+  "author": "Kim Hamper",
+  "devDependencies": {
+    "gulp-concat": "~2.5.2",
+    "gulp-uglify": "~1.1.0",
+    "gulp-jshint": "~1.9.4",
+    "gulp-imagemin": "~2.2.1",
+    "gulp-minify-html": "~1.0.1",
+    "gulp-uncss": "~1.0.1",
+    "gulp-cssmin": "~0.1.6",
+    "gulp-ruby-sass": "~1.0.1",
+    "gulp-sourcemaps": "~1.5.1",
+    "gulp-processhtml": "~1.1.0",
+    "gulp": "~3.8.11",
+    "browser-sync": "~2.4.0",
+    "gulp-autoprefixer": "~2.1.0"
+  }
+}
