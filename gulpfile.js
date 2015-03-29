@@ -44,6 +44,10 @@ gulp.task('sass', function () {
             })
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(cssSrc))
+        .pipe(autoprefixer({
+            browsers: ['> 2%'],
+            cascade: false
+        }))
         .pipe(reload({stream: true}));
 });
 
@@ -85,4 +89,4 @@ gulp.task('optimize-html', function(){
 });
 
 gulp.task('default', ['jshint', 'serve']);
-gulp.task('build', ['optimize-js', 'optimize-images', 'optimize-css', 'optimize-html']);
+gulp.task('production', ['optimize-js', 'optimize-images', 'optimize-css', 'optimize-html']);

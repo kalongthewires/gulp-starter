@@ -4,7 +4,7 @@
   "description": "Template Gulp script",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kalongthewires/kah-gulp-starter.git"
+    "url": "git://github.com/kalongthewires/gulp-starter.git"
   },
   "author": "Kim Hamper",
   "devDependencies": {
